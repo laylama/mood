@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>心情记录</title>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji-grid"></div>
+        <div class="add-mood">
+            <div class="emoji-selector">
+                <span>❤️</span>
+                <span>💛</span>
+                <span>💚</span>
+                <span>💙</span>
+                <span>🖤</span>
+                <span>💜</span>
+            </div>
+            <input type="text" class="mood-input" placeholder="Jot down your current mood!" style="display: none;">
+            <button class="submit-btn" style="display: none;">Submit</button>
+        </div>
+        <button class="toggle-history-btn">Show/Hide</button>
+        <ul class="mood-list hidden"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
